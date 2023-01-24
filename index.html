@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Hulu Stack ICT Solutions</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="header">        
+        <div class="header__container">
+            <div class="header__box">
+                <a class="header__box--logo" href="index.html">Hulu <strong>Stack</strong></a>
+                <nav class="sm-hide">
+                    <ul class="header__box--items">                       
+                        <li><a class="nav-link" href="#">Home</a></li>
+                        <li><a class="nav-link" href="#">About</a></li>
+                        <li><a class="nav-link" href="#">Services</a></li>
+                    </ul>
+                </nav>
+
+                <div class="sm-hide">
+                    <a href="#contact" class="btn btn--secondary">Contact Us</a>
+                </div>
+    
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>            
+            
+        </div> 
+       
+        
+
+        <nav class="mobile-nav">
+            <a class="mobile-nav-link" href="index.html">Home</a>
+            <a class="mobile-nav-link" href="#about">About</a>
+            <a class="mobile-nav-link" href="#skills">Services</a>
+        </nav>
+    </header>
+
+    <section class="hero text-white">
+        <div class="hero__box">
+            <div class="hero__box--content">
+                <h1 class="heading-primary heading-primary--white">Let's Build Something Great and Grow Your Business with Us.</h1>
+                <p class="paragraph mb-2">Share your challenge with our team and we will work you to deliver great digital products.</p>
+                <div class="mb-4">
+                    <a href="#" class="btn btn--secondary">Get Started</a>
+                </div>
+            </div>
+            <div class="hero__box--image">
+                <img src="./assets/images/hero-img.png" alt="Hulu Stack ICT Solutions">
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container center">
+            <h2 class="heading-secondary heading-secondary--black text-center">About Us</h2>
+            <div class="text-center">
+                <p class="paragraph mb-3">Hulu Stack is a full-service agency, busy designing and building beautiful digital products, brands and experiences.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services text-white">
+        <div class="container center">
+            <h2 class="heading-secondary heading-secondary--white text-center mb-2">Services</h2>
+            <div class="text-center">
+                <p class="paragraph mb-3">Hulu Stack aims to help SMBs and Enterprises accelerate their digital transformation and business growth by offering quality software development services.</p>
+            </div>
+
+            <div class="services__content">
+                <div class="services__content--card">
+                    <img src="./assets/svgs/desktop-icon.svg" alt="desktop-icon">
+                    <p class="text-center paragraph">Desktop Application Development</p>
+                </div>
+                <div class="services__content--card">
+                    <img src="./assets/svgs/mobile-icon.svg" alt="desktop-icon">
+                    <p class="text-center paragraph">Mobile Application Development</p>
+                </div>
+                <div class="services__content--card">
+                    <img src="./assets/svgs/web-icon.svg" alt="desktop-icon">
+                    <p class="text-center paragraph">Web Application Development</p>
+                </div>
+                <div class="services__content--card">
+                    <img src="./assets/svgs/support-icon.svg" alt="desktop-icon">
+                    <p class="text-center paragraph">IT <br> Consulting & Support</p>
+                </div>
+            </div>
+
+            <div class="center p-4">
+                <a href="./pages/services.html" class="btn btn--secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="text-center mb-2 sm-mt-4">
+            <h2 class="heading-secondary heading-secondary--black mb-2">Contact Us</h2>
+            <p class="mx-1 paragraph text-black mb-1">Send us a message and let's create something great.</p>
+            <div class="contact__info text-black mt-1">
+                    <p class="contact__info__item">
+                        <img src="./assets/svgs/location-icon.svg" alt="location-icon">
+                        <a href="#">Addis Ababa, Ethiopia</a>
+                    </p>
+                    <p class="contact__info__item">
+                        <img src="./assets/svgs/message-icon (2).svg" alt="message-icon">
+                        <a href="mailto:stackhulu@gmail.com">hulustack@gmail.com</a>
+                    </p>
+                    <p class="contact__info__item">
+                        <img src="./assets/svgs/phone-icon.svg" alt="phone-icon">
+                        <a href="tel:+2519-1920-3993">(+251) 919 203 993/(+251) 912 905 252</a>
+                    </p>
+            </div>
+
+            <form action="https://formsubmit.co/abelgetu27@gmail.com" class="container" method="post">
+                <div class="contact__form__group--wrapper">
+                    <div class="contact__form__group">
+                        <label class="contact__form__label" for="name">Name</label>
+                        <input class="contact__form__input" name="name" type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="contact__form__group">
+                        <label class="contact__form__label" for="email">Email Address</label>
+                        <input class="contact__form__input" name="email" type="email" placeholder="Your Email Address" required>
+                    </div>
+                    
+                </div>
+                <div class="contact__form__group">
+                    <label class="contact__form__label" for="message">Message</label>
+                    <textarea class="contact__form__textarea" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                
+                <input type="hidden" name="_next" value="https://abelgetu.pages.dev/thanks.html">
+                <button type="submit" class="contact__form__button mt-1 ml-1"><span>Send</span> <img src="./assets/svgs/send-icon.svg" alt="send-icon"></button>
+            </form>  
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__boxs">
+                <div class="footer_box">
+                    <h3 class="heading-tertiary heading-tertiary--white mb-2">Contact Us</h3>
+                    <div class="footer_box--items">
+                        <p class="footer__info__item">
+                            <img src="./assets/svgs/phone-icon-white.svg" alt="phone-icon-white">
+                            <a href="tel:+2519-1920-3993">(+251) 919 203 993/(+251) 912 905 252</a>
+                        </p>
+                        <p class="footer__info__item">
+                            <img src="./assets/svgs/message-icon-white.svg" alt="message-icon-white">
+                            <a href="mailto:stackhulu@gmail.com">hulustack@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer_box">
+                    <h3 class="heading-tertiary heading-tertiary--white mb-2">Our Service</h3>
+                    <div class="footer_box--items">
+                        <p class="footer__info__item">
+                            <a href="#">Dedicated Software Teams</a>
+                        </p>
+                        <p class="footer__info__item">
+                            <a href="#">QA and Testing</a>
+                        </p>
+                        <p class="footer__info__item">
+                            <a href="#">Custom Software Development</a>
+                        </p>
+                        <p class="footer__info__item">
+                            <a href="#">Maintainace and Support</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer_box">
+                    <h3 class="heading-tertiary heading-tertiary--white mb-2">Our Expertise</h3>
+                    <div class="footer_box--items">
+                        <p class="footer__info__item">
+                            <a href="#">UI/UX Design</a>
+                        </p>
+                        <p class="footer__info__item">
+                            <a href="#">Mobile Application Development</a>
+                        </p>
+                        <p class="footer__info__item">
+                            <a href="#">Web Application Development</a>
+                        </p>
+                        <p class="footer__info__item">
+                            <a href="#">Desktop Application Development</a>
+                        </p>
+                        <p class="footer__info__item">
+                            <a href="#">Database Development</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__copyright_and_links_box">
+                <div class="footer_copyright">
+                    <p class="paragraph">&copy; Copyright Hulu Stack 2022. All right reserved</d>
+                </div>
+                <div class="footer__links nav-link">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                </div>
+                <div class="footer__social_links">
+                    <a href="#"><img src="./assets/images/twitter.png" alt="twitter"></a>
+                    <a href="#"><img src="./assets/images/linkedin.png" alt="linkedin"></a>
+                    <a href="#"><img src="./assets/images/facebook.png" alt="facebook"></a>
+                </div>
+            </div>
+        </div>
+       
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
